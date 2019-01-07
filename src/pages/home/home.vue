@@ -4,6 +4,7 @@
       <nav-bar></nav-bar>
       <slide></slide>
       <hot-goods></hot-goods>
+      <hot-shop></hot-shop>
     </div>
 </template>
 
@@ -12,12 +13,14 @@
   import NavBar from '../../components/nav'
   import Slide from '../../components/slide'
   import HotGoods from './hotGoods'
+  import HotShop from './hot_shop'
   export default {
     components:{
       HeadBar,
       NavBar,
       Slide,
-      HotGoods
+      HotGoods,
+      HotShop
     }
   }
 </script>
