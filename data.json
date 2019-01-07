@@ -1,0 +1,19 @@
+{
+  "list":[
+    {
+      "id": "000",
+      "img": "https://img3.doubanio.com/img/files/file-1485236684-0.jpg",
+      "url": "www.baidu.com"
+    },
+    {
+      "id": "001",
+      "img": "https://img3.doubanio.com/img/files/file-1487144115-0.jpg",
+      "url": "www.baidu.com"
+    },
+    {
+      "id": "002",
+      "img": "https://img3.doubanio.com/img/files/file-1486953805-0.jpg",
+      "url": "www.baidu.com"
+    }
+  ]
+}
