@@ -7,6 +7,9 @@ import router from './router'
 import '../mock/index'
 import 'swiper/dist/css/swiper.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+import infiniteScroll from 'vue-infinite-scroll'
+
+Vue.use(infiniteScroll)
 
 Vue.use(VueAwesomeSwiper)
 // import '../static/fonts/iconfont.css'
