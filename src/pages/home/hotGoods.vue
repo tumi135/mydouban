@@ -29,7 +29,6 @@
         axios.get('/hotProducts').then(res => {
           if(res.data.code === 0){
             this.list = res.data.data.slice(0, 6)
-            console.log(this.list)
           }
         })
       }

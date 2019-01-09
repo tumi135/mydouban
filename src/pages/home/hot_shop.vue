@@ -1,42 +1,37 @@
 <template>
-    <div class="hot-shop" v-infinite-scroll="getHotShops" infinite-scroll-disabled="busy" infinite-scroll-distance="100">
+    <div class="hot-shop" v-infinite-scroll="updateHotShop" infinite-scroll-disabled="busy" infinite-scroll-distance="100">
       <div class="db_shop_item" v-for="shop in hotShopList" :key="shop.id">
-
+        <div class="shop_top">
+          <img :src="shop.icon">
+          <span class="shop_name">{{shop.name}}</span>
+          <p class="shop_intrduction">{{shop.intrduction}}</p>
+        </div>
       </div>
     </div>
 </template>
 
 <script>
-  import axios from 'axios'
+  import {mapState, mapActions} from 'vuex'
 
   export default {
       data (){
         return {
-          hotShopList: [],
-          busy: false,
-          shopNum: 5
+
         }
       },
+    computed : {
+      ...mapState(['hotShopList'])
+    },
       methods : {
-        getHotShops (){
-          this.busy = true
-          axios.get('/hotShop').then(res => {
-            var result = res.data.data.slice(this.shopNum - 5, this.shopNum)
-            if(result.length !== 0){
-              this.hotShopList.concat(result)
-              this.busy = false
-              this.shopNum += 5
-              console.log(result)
-            }else {
-
-            }
-          })
-        }
+        ...mapActions(['updateHotShop'])
       }
 
     }
 </script>
 
 <style scoped>
-
+.shop_name{
+  font-size: 32px;
+  color: #795da3;
+}
 </style>
