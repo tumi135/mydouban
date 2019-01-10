@@ -1,8 +1,8 @@
 <template>
     <div class="nav">
       <ul>
-        <li v-for="(item, index) in navItem" :key="index">
-          <router-link :to="item.url" active-class="actives">{{item.text}}</router-link>
+        <li v-for="(item, index) in navItem" :key="index" >
+          <router-link :to="item.url" active-class="actives" >{{item.text}}</router-link>
         </li>
       </ul>
     </div>
@@ -18,6 +18,15 @@
             {text: '购物车', url: '/car'},
             {text: '我的', url: '/me'}
           ]
+        }
+      },
+      computed: {
+        // nowRouter (){
+        // }
+      },
+      watch: {
+        $route (to, from) {
+          console.log(this.$route.path)
         }
       }
     }
@@ -47,6 +56,9 @@
   .nav>ul>li>.actives{
     color: #68cb78;
     font-size: 15px;
+  }
+  .active{
+    color: #68cb78;
   }
 
 </style>

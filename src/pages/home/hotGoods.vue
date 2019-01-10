@@ -41,14 +41,15 @@
     padding: 2vw;
     box-sizing: border-box;
   }
-  .hot-goods{
-    width: 100%;
-  }
   .goods-item{
     display: inline-block;
     list-style: none;
     width: 47vw;
     height: 80vw;
+    background: #ffffff;
+    margin-bottom: 2vw;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
   }
   .hot-item>a{
     text-decoration:none;
@@ -60,6 +61,7 @@
     width: 47vw;
     height: 63vw;
   }
+
   .goods-title{
     display: block;
     padding: 5px 0;

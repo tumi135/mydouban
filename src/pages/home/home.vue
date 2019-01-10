@@ -26,5 +26,7 @@
 </script>
 
 <style scoped>
-
+.home{
+  background: #f8f8fe;
+}
 </style>

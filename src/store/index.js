@@ -14,7 +14,9 @@ export default new Vuex.Store({
     myValue: 'yuyuyu',
     myValue2: 'xiaoxiao',
     hotShopList: [],
+    hotShopBusy: false,
     busy: false,
+    noneBuzy: false,
     shopNum: 5
   },
   mutations :{
@@ -23,21 +25,31 @@ export default new Vuex.Store({
     },
     UPDATEHOTSHOP (state, list) {
       state.hotShopList = state.hotShopList.concat(list)
+    },
+    CHANGEBUSY (state, value){
+      state.busy = value
+    },
+    CHANGENONEBUZY (state, value){
+      state.noneBuzy = value
     }
   },
   actions : {
     updateHotShop ({commit, state}){
-      state.busy = true
+      state.hotShopBusy = true
+      commit('CHANGEBUSY', true)
       axios.get('/hotShop').then(res => {
         var result = res.data.data.slice(state.shopNum - 5, state.shopNum)
-        if(result.length !== 0){
-          commit('UPDATEHOTSHOP', result)
-          state.busy = false
-          state.shopNum += 5
-          console.log(result)
-        }else {
-
-        }
+        setTimeout(function () {
+          if(result.length !== 0){
+            commit('UPDATEHOTSHOP', result)
+            commit('CHANGEBUSY', false)
+            state.hotShopBusy = false
+            state.shopNum += 5
+          }else {
+            commit('CHANGEBUSY', false)
+            commit('CHANGENONEBUZY', true)
+          }
+        }, 500)
       })
     }
   }
