@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="shop_buttom">
-          <a :href="shop.url">进入店铺>></a>
+          <router-link :to="{name: 'shop',params: {id: shop.id}}">进入店铺>></router-link>
         </div>
       </div>
       <loading v-show="busy"></loading>

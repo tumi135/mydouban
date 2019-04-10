@@ -4,6 +4,10 @@ import home from '@/pages/home/home.vue'
 import category from '@/pages/category/category'
 import car from '@/pages/car/car'
 import me from '@/pages/me/me'
+import login from '@/pages/login/login'
+import detail from '@/pages/detail/detail'
+import list from '@/pages/list/list'
+import shop from '@/pages/shop/shop'
 
 Vue.use(Router)
 
@@ -11,7 +15,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'ohome',
       component: home
     },
     {
@@ -33,6 +37,26 @@ export default new Router({
       path: '/me',
       name: 'me',
       component : me
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: login
+    },
+    {
+      path: '/detail/:id',
+      name: 'detail',
+      component: detail
+    },
+    {
+      path: '/list/:id',
+      name: 'list',
+      component: list
+    },
+    {
+      path: '/shop/:id',
+      name: 'shop',
+      component: shop
     }
   ]
 })

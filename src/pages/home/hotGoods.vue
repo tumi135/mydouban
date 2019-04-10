@@ -3,14 +3,14 @@
       <ul>
         <li class="goods-item" v-for="(item,index) in list" :key="index">
           <div class="hot-item">
-            <a :href="item.url + '/' + item.id">
+            <router-link :to="{name:'detail',params: {id: item.id}}">
               <img :src="item.src" class="goods-img">
               <div class="hot-goods-ifo">
                 <h3 class="goods-title">{{item.title}}</h3>
                 <span class="newPrice">{{item.newPrice}}</span>
                 <del class="oldPrice">{{item.oldPrice}}</del>
               </div>
-            </a>
+            </router-link>
           </div>
         </li>
       </ul>

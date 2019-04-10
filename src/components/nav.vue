@@ -2,7 +2,7 @@
     <div class="nav">
       <ul>
         <li v-for="(item, index) in navItem" :key="index" >
-          <router-link :to="item.url" active-class="actives" >{{item.text}}</router-link>
+          <router-link :to="item.url" active-class="actives" :class="{active: allHome && index == 0}">{{item.text}}</router-link>
         </li>
       </ul>
     </div>
@@ -17,16 +17,15 @@
             {text: '分类', url: '/category'},
             {text: '购物车', url: '/car'},
             {text: '我的', url: '/me'}
-          ]
+          ],
+          allHome: false
         }
       },
       computed: {
-        // nowRouter (){
-        // }
       },
-      watch: {
-        $route (to, from) {
-          console.log(this.$route.path)
+      created (){
+        if(this.$route.path === '/'){
+          this.allHome = true
         }
       }
     }
@@ -52,12 +51,13 @@
   .nav>ul>li>a{
     color: #4a4a4a;
     font-size: 15px;
+    text-decoration: none;
   }
   .nav>ul>li>.actives{
     color: #68cb78;
     font-size: 15px;
   }
-  .active{
+  .nav>ul>li>.active{
     color: #68cb78;
   }
 

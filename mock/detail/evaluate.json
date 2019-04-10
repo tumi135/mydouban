@@ -1,0 +1,140 @@
+{
+  "code":"0",
+  "message":"请求成功！",
+  "list":[
+    {
+      "user":"张一",
+      "score":"2",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张二",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    },
+    {
+      "user":"张三",
+      "score":"2",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张四",
+      "score":"2",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张五",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    },
+    {
+      "user":"张六",
+      "score":"5",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张七",
+      "score":"2",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张八",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    },
+    {
+      "user":"张九",
+      "score":"5",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张十",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    },
+    {
+      "user":"张十一",
+      "score":"5",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },{
+      "user":"张十二",
+      "score":"5",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张十三",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    },
+    {
+      "user":"张十四",
+      "score":"5",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高"
+    },
+    {
+      "user":"张十五",
+      "score":"4",
+      "head_portrait":"http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+      "time": "2016-07-07 16:23:44",
+      "comment_text":"买的亚麻短裤，感觉板型、做工都可以的，上身也比较舒适，就是不知道水洗后怎样~总体感觉性价比挺高",
+      "comment_picture":[
+        "http://wuwc.i728.top/examples/7/source/detail_slider1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider2.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail_slider3.jpg"
+      ]
+    }
+  ]
+}

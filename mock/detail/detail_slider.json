@@ -1,0 +1,78 @@
+{
+  "code":"0",
+  "message":"请求成功！",
+  "list":[
+    {
+      "id":"1",
+      "title":"2019冬季新品 超Q弹加绒打底裤",
+      "now_price": "199",
+      "old_price": "299",
+      "fre_price": "8.00",
+      "number": "10",
+      "overall_score":"4.2",
+      "choice":{
+        "color":["白色","青色","紫色"],
+        "size": ["S","M","L","Xl"]
+      },
+      "slider": [
+        {
+          "img": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2519488824,4061156365&fm=26&gp=0.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548619713810&di=5972c410276a9907c2a3ecdf9b5b2bdb&imgtype=0&src=http%3A%2F%2Fimage4.suning.cn%2Fuimg%2Fb2c%2Fnewcatentries%2F0070174955-000000000782346285_2_800x800.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548619760313&di=ce37138f7298c6432fc89984e67cab76&imgtype=0&src=http%3A%2F%2Fm.360buyimg.com%2Fn12%2Fg13%2FM02%2F14%2F1E%2FrBEhVFL-2voIAAAAAALYSk-ChkoAAIjnAAE_GkAAthi493.jpg%2521q70.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548620486483&di=fcca6b6e06a7816a73889499ca5e786a&imgtype=0&src=http%3A%2F%2Fa.vpimg4.com%2Fupload%2Fmerchandise%2Fpdcvis%2F2017%2F04%2F28%2F33%2F087e15bd-1c95-4352-ab25-7ca118328ff6.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548621838020&di=ddab24ddf7a7474c90fa28f8a528714f&imgtype=0&src=http%3A%2F%2Fimg10.360buyimg.com%2Fimgzone%2Fjfs%2Ft595%2F197%2F709604075%2F52017%2F30686d2c%2F547fd9bdNd533b6bb.jpg",
+          "url": "#"
+        }
+      ],
+      "details": [
+        "http://wuwc.i728.top/examples/7/source/detail0.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail2.jpg"
+      ]
+    },
+    {
+      "id":"2",
+      "title":"PISN2019冬季新品 超保暖冲锋衣棉衣",
+      "now_price": "211",
+      "old_price": "312",
+      "fre_price": "8.00",
+      "overall_score":"4.2",
+      "number": "10",
+      "choice":{
+        "颜色":["白色","青色","紫色"],
+        "尺寸": ["S","M","L","Xl"]
+      },
+      "slider": [
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548619120551&di=3d5a13180793eb97bc6af7c9e2df9f45&imgtype=0&src=http%3A%2F%2Fimage04.71.net%2Fimage04%2F90%2F40%2F39%2F75%2F131d0e92-4669-430c-9386-5facafc822b4.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548619155122&di=6a338ee3f4a9fcb12e103060c023b85f&imgtype=0&src=http%3A%2F%2Fimage04.71.net%2Fimage04%2F24%2F18%2F97%2F64%2Fa8e1ff9c-2fcb-45c8-95f6-71c8491c6584.jpg",
+          "url": "#"
+        },
+        {
+          "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548619205876&di=d78f5ca4f015cc7fc74df61fa41766ee&imgtype=0&src=http%3A%2F%2Fimage09.71.net%2Fimage09%2F37%2F06%2F64%2F64%2Ff973208a-c811-4382-9d8c-e924f2d7438b.jpg",
+          "url": "#"
+        }
+      ],
+      "details": [
+        "http://wuwc.i728.top/examples/7/source/detail0.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail1.jpg",
+        "http://wuwc.i728.top/examples/7/source/detail2.jpg"
+      ]
+    }
+  ]
+}
